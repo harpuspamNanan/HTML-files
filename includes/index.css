@@ -1,0 +1,46 @@
+#banner-image { padding-top: 75px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(img2/bg.jpg) no-repeat center center ;
+    background-size: cover;
+  }
+
+.banner-content { position: relative;
+      padding-top: 6%;
+      padding-bottom: 6%;
+      margin-top: 12%;
+      margin-bottom: 12%;
+      margin-left: 25%;
+      background-color: rgba(0, 0, 0, 0.7);
+      max-width: 660px;
+    }              
+   
+
+ h3 { padding-top: 60px;
+     }      
+     
+    
+
+.jumbotron { margin-top: 30px;
+             padding-top: 50p;}       
+
+.matter {height: auto;
+} 
+
+table { margin-top: 290px;
+      }        
+
+.elements { padding-left: 500px;
+            padding-top: 30px; }      
+  
+.asd { padding-left: 20px; }    
+
+.asdf { padding-left: 490px;
+        padding-top:60px;}
+ 
+.succ { padding-left: 30px;
+        padding-top: 130px;
+      }        
+ 
+.colour { color: #31CA2B}      
