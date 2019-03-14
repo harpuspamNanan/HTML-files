@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)https://trainings.internshala.com/content/web-development#/topic/126 -->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml"><head id="head"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+        <!-- Google Tag Manager -->
+<script type="text/javascript" async="" src="./Web Development Training_files/analytics.js.download"></script><script async="" src="./Web Development Training_files/gtm.js.download"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TL6GST7');</script>
+<!-- End Google Tag Manager -->
+        <meta http-equiv="X-UA-Compatible" content="IE=9">
+        
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="Internshala Online Summer Trainings">
+        <meta property="og:type" content="article">
+        <meta property="fb:app_id" content="272234782795210">
+        <meta property="og:url" content="https://trainings.internshala.com/">
+        <meta property="og:image" content="https://trainings.internshala.com/static/images/fb.png">
+        <meta property="og:description" content=" ">
+
+        <script src="./Web Development Training_files/jquery-3.2.1.min.js.download" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+       <script src="./Web Development Training_files/jquery-ui.min.js.download" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+        <script src="./Web Development Training_files/vendor.js.download"></script>
+
+                <title>Web Development Training</title>
+        <meta name="description" content="Internshala Trainings">
+        <link href="./Web Development Training_files/content.1503643627.css" rel="stylesheet" type="text/css">
+        <script src="./Web Development Training_files/ui-codemirror.js.download" type="text/javascript"></script>
+        <script src="./Web Development Training_files/content.1503645769.js.download" type="text/javascript"></script>
+
+    </head>
+    <body ng-app="vtcApp" class="ng-scope">
+        <!-- Google Tag Manager (noscript) -->
+<noscript>&lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TL6GST7"
+height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+<!-- End Google Tag Manager (noscript) -->
+        <div id="ribbon_notification" class="notification notification_ribbon">
+        </div>
+        <div id="wrapper" ng-controller="mainController" class="ng-scope" style="min-height: 660px; pointer-events: all; opacity: 1;">
+            <div id="success_notification" class="notification notification_success">
+            </div>
+            <div id="error_notification" class="notification notification_error">
+            </div>
+            <div id="header">
+                
+<div id="navbar-container">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid max-width-container max-width-padding">
+            <div class="navbar-header" id="main-navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dropdown">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://trainings.internshala.com/">
+                    <img src="./Web Development Training_files/logo.svg">
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="dropdown">
+                <ul class="nav navbar-nav navbar-right">
+                                            <li class="hidden-xs">
+                            <a href="https://trainings.internshala.com/dashboard">Dashboard</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="https://trainings.internshala.com/content/web-development#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img src="./Web Development Training_files/profile.svg">  <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu" id="user_menu">
+                                <li id="username_container">
+                                    You are logged in as<br>
+                                    Harpushpam Singh                                </li>
+                                <li class="divider visible-xs"></li>
+                                <li ng-click="$root.initializeOverview()" class="visible-xs"><a href="javascript:;"><img style="height: 20px;" src="./Web Development Training_files/Overview-Grey.png">  Overview</a></li>
+                                <li class="divider visible-xs"></li>
+                                <li ng-click="$root.initializeStudyRoom()" class="visible-xs"><a href="javascript:;"><img style="height: 20px;" src="./Web Development Training_files/Study-Room-Grey.png"> Study Room</a></li>
+                                <li class="divider visible-xs"></li>
+                                <li ng-click="$root.initializeProgressTracker()" class="visible-xs"><a href="javascript:;"><img style="height: 20px;" src="./Web Development Training_files/Progress-Tracker-Grey.png"> Progress Tracker</a></li>
+                                <li class="divider visible-xs"></li>
+                                <li ng-click="$root.initializeTryYourSelf()" class="visible-xs"><a href="javascript:;"><img style="height: 20px;" src="./Web Development Training_files/Test-Your-Code-Grey.png"> Test Your Code</a></li>
+                                <li class="divider visible-xs"></li>
+                                <li class="visible-xs">
+                                    <a href="https://trainings.internshala.com/dashboard"><img src="./Web Development Training_files/profile.svg">  Dashboard
+                                    </a>
+                                </li>
+
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="https://trainings.internshala.com/referral"><img src="./Web Development Training_files/rupee.svg">   My rewards
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="https://trainings.internshala.com/logout"><img src="./Web Development Training_files/logout.svg"> Logout</a>
+                                </li>
+                            </ul>
+                                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>            </div>
+            <div id="content" class="max-width-container ng-scope" ng-controller="contentController" ng-init="$root.currentCourseName = &#39;Web Development&#39;;
+        $root.currentCourseUrl = &#39;web-development&#39;;
+        $root.currentStudentId = &#39;2152071&#39;;
+        $root.currentStudentKey = &#39;4BA2ACEC-2142-6541-33D1-32D299DD9FBE&#39;" style="padding-bottom: 37px;">
+    <div class="table-row">
+        <div id="menu_container">
+            <!-- ngIf: $root.currentPage === 'study_room' --><div ng-if="$root.currentPage === &#39;study_room&#39;" id="drop_down_course_menu" ng-click="toggleCourseMenu()" class="visible-xs ng-scope">
+                <span ng-hide="$root.isFinalTestScreenActive" ng-bind="$root.currentModuleName" class="ng-binding">HTML &amp; CSS</span>  
+                <!-- ngIf: $root.currentModuleName !== '' && $root.currentTopicName !== '' --><span ng-hide="$root.isFinalTestScreenActive" ng-if="$root.currentModuleName !== &#39;&#39; &amp;&amp; $root.currentTopicName !== &#39;&#39;" class="ng-scope"> &gt; </span><!-- end ngIf: $root.currentModuleName !== '' && $root.currentTopicName !== '' -->
+                <span ng-hide="$root.isTestScreenActive" ng-bind="$root.currentTopicName" class="ng-binding">Navigation</span>
+                <span ng-show="$root.isTestScreenActive" class="ng-binding ng-hide"> </span>
+
+                <span class="caret pull-right"></span>
+            </div><!-- end ngIf: $root.currentPage === 'study_room' -->
+            <div id="main_menu">
+                <div id="overview_container" ng-click="$root.initializeOverview()" class="menu_heading_container hidden-xs">
+                    <div class="menu_icon table-cell" id="overview_icon"></div>
+                    <div class="menu_heading table-cell" id="overview_heading">
+                        <div class="">OVERVIEW</div>
+                    </div>
+                </div>
+                <div ng-click="$root.initializeStudyRoom()" class="menu_heading_container hidden-xs active" id="study_room_container">
+                    <div class="menu_icon table-cell" id="study_room_icon"></div>
+                    <div class="menu_heading table-cell" id="study_room_heading">
+                        <div class="">STUDY ROOM</div>
+                    </div>
+                </div>
+
+                <!--loading course menu with template-->
+                <div id="course_menu" ng-init="$root.getCourseMenu()"><div class="panel-group ng-isolate-scope" id="accordion" role="tablist" ng-aria-multiselectable="true" data="menu">
+    <!-- ngRepeat: module in data --><div class="panel panel-default ng-scope" role="tablist" ng-repeat="module in data">
+        <div class="panel-heading" role="tab" id="module25">
+            <h4 class="panel-title" role="button" ng-click="" id="accordion_module_button_25" data-toggle="collapse" data-parent="#accordion" href="#collapse25" aria-expanded="false" aria-controls="collapse25">
+                <a class="ng-binding">
+                    HTML &amp; CSS
+                </a>
+            </h4>
+        </div>
+        <div id="collapse25" ng-class="module.id == $root.currentModuleId ? &#39;panel-collapse collapse in&#39; : &#39;panel-collapse collapse&#39;" role="tabpanel" aria-labelledby="module25" class="panel-collapse collapse in">
+            <div class="panel-body">
+                <ul>
+                    <!-- ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope">
+                        <a id="topic_108" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">HTML Introduction</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right ng-hide" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope">
+                        <a id="topic_109" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">HTML Page Structure</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right ng-hide" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope">
+                        <a id="topic_110" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Tags &amp; Elements</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right ng-hide" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope">
+                        <a id="topic_112" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Text Formatting</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right ng-hide" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope">
+                        <a id="topic_111" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Attributes</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right ng-hide" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope">
+                        <a id="topic_121" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Hyperlinks</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right ng-hide" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope">
+                        <a id="topic_117" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Cascading Style Sheets</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right ng-hide" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope">
+                        <a id="topic_118" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Box Model</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right ng-hide" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope">
+                        <a id="topic_119" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Colors</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right ng-hide" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope">
+                        <a id="topic_120" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Fonts</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right ng-hide" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope">
+                        <a id="topic_122" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Lists</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right ng-hide" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope">
+                        <a id="topic_123" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Creating Layouts</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right ng-hide" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope">
+                        <a id="topic_125" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Images</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right ng-hide" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope">
+                        <a id="topic_124" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Tables</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right ng-hide" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope">
+                        <a id="topic_126" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding activetopic">Navigation</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right ng-hide" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope">
+                        <a id="topic_127" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Forms</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right ng-hide" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope">
+                        <a id="topic_128" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Miscellaneous</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right ng-hide" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope">
+                        <a id="topic_167" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Assignment</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right ng-hide" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics -->
+                    <li id="module_test_25" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[module.topics[0].topic_status === &#39;locked&#39;]" ng-click="$root.initializeModuleTest(module.id)">
+                        <a class="module_test" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[$root.isTestScreenActive &amp;&amp; module.id == $root.currentModuleId]" href="javascript:;"> Module Test </a>
+                        <span ng-show="module.topics[0].topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right ng-hide" aria-hidden="true"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--final test-->
+        <!-- ngIf: $index === data.length-1 -->
+    </div><!-- end ngRepeat: module in data --><div class="panel panel-default ng-scope" role="tablist" ng-repeat="module in data">
+        <div class="panel-heading" role="tab" id="module29">
+            <h4 class="panel-title" role="button" ng-click="" id="accordion_module_button_25" data-toggle="collapse" data-parent="#accordion" href="#collapse29" aria-expanded="false" aria-controls="collapse29">
+                <a class="ng-binding">
+                    Bootstrap
+                </a>
+            </h4>
+        </div>
+        <div id="collapse29" ng-class="module.id == $root.currentModuleId ? &#39;panel-collapse collapse in&#39; : &#39;panel-collapse collapse&#39;" role="tabpanel" aria-labelledby="module29" class="panel-collapse collapse">
+            <div class="panel-body">
+                <ul>
+                    <!-- ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_138" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Introduction</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_139" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Breakpoints</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_140" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Containing elements</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_141" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Jumbotron &amp;  Glyphicons</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_142" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Tables</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_143" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Column / Rows</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_144" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Navbar</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_145" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Images</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_146" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Thumbnails</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_147" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Forms</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_148" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Panels</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_168" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Assignment</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics -->
+                    <li id="module_test_29" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[module.topics[0].topic_status === &#39;locked&#39;]" ng-click="$root.initializeModuleTest(module.id)" class="locked">
+                        <a class="module_test" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[$root.isTestScreenActive &amp;&amp; module.id == $root.currentModuleId]" href="javascript:;"> Module Test </a>
+                        <span ng-show="module.topics[0].topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--final test-->
+        <!-- ngIf: $index === data.length-1 -->
+    </div><!-- end ngRepeat: module in data --><div class="panel panel-default ng-scope" role="tablist" ng-repeat="module in data">
+        <div class="panel-heading" role="tab" id="module28">
+            <h4 class="panel-title" role="button" ng-click="" id="accordion_module_button_25" data-toggle="collapse" data-parent="#accordion" href="#collapse28" aria-expanded="false" aria-controls="collapse28">
+                <a class="ng-binding">
+                    SQL
+                </a>
+            </h4>
+        </div>
+        <div id="collapse28" ng-class="module.id == $root.currentModuleId ? &#39;panel-collapse collapse in&#39; : &#39;panel-collapse collapse&#39;" role="tabpanel" aria-labelledby="module28" class="panel-collapse collapse">
+            <div class="panel-body">
+                <ul>
+                    <!-- ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_129" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Introduction to database</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_130" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Introduction to DBMS</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_131" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Creating first database</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_132" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">DDL</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_133" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Alter &amp; Drop</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_134" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Foreign Key &amp; Truncate</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_135" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">DML</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_136" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">SQL Joins</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_137" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Additional SQL features</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_169" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Assignment</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics -->
+                    <li id="module_test_28" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[module.topics[0].topic_status === &#39;locked&#39;]" ng-click="$root.initializeModuleTest(module.id)" class="locked">
+                        <a class="module_test" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[$root.isTestScreenActive &amp;&amp; module.id == $root.currentModuleId]" href="javascript:;"> Module Test </a>
+                        <span ng-show="module.topics[0].topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--final test-->
+        <!-- ngIf: $index === data.length-1 -->
+    </div><!-- end ngRepeat: module in data --><div class="panel panel-default ng-scope" role="tablist" ng-repeat="module in data">
+        <div class="panel-heading" role="tab" id="module30">
+            <h4 class="panel-title" role="button" ng-click="" id="accordion_module_button_25" data-toggle="collapse" data-parent="#accordion" href="#collapse30" aria-expanded="false" aria-controls="collapse30">
+                <a class="ng-binding">
+                    PHP
+                </a>
+            </h4>
+        </div>
+        <div id="collapse30" ng-class="module.id == $root.currentModuleId ? &#39;panel-collapse collapse in&#39; : &#39;panel-collapse collapse&#39;" role="tabpanel" aria-labelledby="module30" class="panel-collapse collapse">
+            <div class="panel-body">
+                <ul>
+                    <!-- ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_149" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">PHP: Introduction</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_150" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Basics</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_151" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Functions/Arrays/Strings</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_152" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Loops</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_153" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Database Connection</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_159" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">SELECT Query with PHP (Part I)</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_154" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">SELECT Query with PHP (Part II)</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_155" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Form</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_156" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Sessions</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_157" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Basic security</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_158" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Validations with HTML5/PHP</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics --><li ng-repeat="topic in module.topics" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[topic.topic_status === &#39;locked&#39;]" ng-click="$root.initializeTopic(topic.topic_id, &#39;next&#39;, true)" class="ng-scope locked">
+                        <a id="topic_170" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[topic.topic_id == $root.currentTopicId &amp;&amp; !$root.isTestScreenActive]" href="javascript:;" class="ng-binding">Assignment</a>
+                        <span ng-show="topic.topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li><!-- end ngRepeat: topic in module.topics -->
+                    <li id="module_test_30" ng-class="{true: &#39;locked&#39;, false:&#39;&#39;}[module.topics[0].topic_status === &#39;locked&#39;]" ng-click="$root.initializeModuleTest(module.id)" class="locked">
+                        <a class="module_test" ng-class="{true: &#39;activetopic&#39;, false: &#39;&#39;}[$root.isTestScreenActive &amp;&amp; module.id == $root.currentModuleId]" href="javascript:;"> Module Test </a>
+                        <span ng-show="module.topics[0].topic_status === &#39;locked&#39;" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--final test-->
+        <!-- ngIf: $index === data.length-1 --><div ng-if="$index === data.length-1" class="panel-heading ng-scope" role="tab" id="final_test_30">
+            <h4 ng-class="{true: &#39;panel-title locked&#39;, false: &#39;panel-title&#39;}[$root.isFinalTestLocked]" role="button" ng-click="$root.initializeFinalTest();" id="accordion_final_test_button_25" class="panel-title locked">
+                <a>
+                    Final Test   <span ng-show="$root.isFinalTestLocked" class="glyphicon glyphicon-lock pull-right" aria-hidden="true"></span>
+                </a>
+            </h4>
+        </div><!-- end ngIf: $index === data.length-1 -->
+    </div><!-- end ngRepeat: module in data -->
+</div></div>
+
+                <div id="progress_tracker_container" ng-click="$root.initializeProgressTracker()" class="menu_heading_container hidden-xs">
+                    <div class="menu_icon table-cell" id="progress_tracker_icon"></div>
+                    <div class="menu_heading table-cell" id="progress_tracker_heading">
+                        <div class="">PROGRESS TRACKER</div>
+                    </div>
+                </div>
+
+                                    <div ng-click="$root.initializeTryYourSelf()" class="menu_heading_container hidden-xs">
+                        <div class="menu_icon table-cell" id="test_your_code_icon"></div>
+                        <div class="menu_heading table-cell" id="test_your_code_heading">
+                            <div class="">TEST YOUR CODE</div>
+                        </div>
+                    </div>
+                                </div>
+        </div>
+
+        <div class="table-cell" id="screen_container">
+            <!-- ngIf: $root.currentPage === 'study_room' --><div ng-if="$root.currentPage === &#39;study_room&#39;" id="topic_route_map_container" class="hidden-xs ng-scope" ng-hide="$root.isFinalTestScreenActive">
+                <p id="module_heading" ng-bind="$root.currentModuleName" class="ng-binding">HTML &amp; CSS</p>
+                <!-- ngIf: $root.currentModuleName != '' && $root.currentTopicName != '' --><p id="module_topic_divider" ng-if="$root.currentModuleName != &#39;&#39; &amp;&amp; $root.currentTopicName != &#39;&#39;" class="ng-scope"> &gt; </p><!-- end ngIf: $root.currentModuleName != '' && $root.currentTopicName != '' -->
+                <p ng-hide="$root.isTestScreenActive" id="topic_heading" ng-bind="$root.currentTopicName" class="ng-binding">Navigation</p>
+                <p ng-show="$root.isTestScreenActive" class="ng-binding ng-hide"> &nbsp;&nbsp;</p>
+            </div><!-- end ngIf: $root.currentPage === 'study_room' -->
+            <!-- ngIf: $root.isFinalTestScreenActive -->
+
+            <div id="screen_main_view_container">
+                <div id="screen"><div class="screen_panel video_screen_panel ng-scope" id="video_screen"><div id="video_player_container" src="/uploads/webdev/content_media/navigation.mp4" class="ng-isolate-scope">
+    <div id="video_player_inner_container">
+        <video preload="auto" controls="" id="video_player" ng-src="/uploads/webdev/content_media/navigation.mp4" type="video/mp4" src="/uploads/webdev/content_media/navigation.mp4">
+        </video>
+        <!--<canvas id="canvas"></canvas>-->
+<!--        <div id="controls">
+            <i class="fa fa-gear"></i>
+            <select  ng-change="changeVideoQuality()" id="select_video" ng-model="selectedItem">
+                <option ng-repeat="(key, value) in videoResolutions" value="/uploads/webdev/content_media/{{value}}">{{key}}</option>
+            </select>
+        </div>-->
+    </div>
+</div></div></div>
+            </div>
+
+            <!-- ngIf: $root.currentModuleName != '' && $root.currentTopicName != '' --><div ng-if="$root.currentModuleName != &#39;&#39; &amp;&amp; $root.currentTopicName != &#39;&#39;" id="topic_screen_navigation_container" class="table-row ng-scope">
+                <div id="icon_navigation_container"><div id="screen_icon_navigation" class="ng-isolate-scope">
+    <div id="icon-container">
+        <!-- ngRepeat: screen in $root.currentTopicScreensData --><div ng-repeat="screen in $root.currentTopicScreensData" id="screen_icon_226" ng-click="$root.initializeScreen(screen.id, &#39;next&#39;, true)" class="table-cell icon video_screen_icon active_video_screen_icon viewed viewed_video_screen_icon" style="">
+        </div><!-- end ngRepeat: screen in $root.currentTopicScreensData --><div ng-repeat="screen in $root.currentTopicScreensData" id="screen_icon_245" ng-click="$root.initializeScreen(screen.id, &#39;next&#39;, true)" class="table-cell icon quiz_screen_icon not_viewed not_viewed_quiz_screen_icon" style="">
+        </div><!-- end ngRepeat: screen in $root.currentTopicScreensData -->
+    </div>
+    <div id="divider-container">
+        <!-- ngRepeat: screen in $root.currentTopicScreensData --><!-- ngIf: $index !== 0 --><!-- end ngRepeat: screen in $root.currentTopicScreensData --><!-- ngIf: $index !== 0 --><div ng-if="$index !== 0" ng-repeat="screen in $root.currentTopicScreensData" class="table-cell divider ng-scope" style="">
+            <hr id="screen_icon_divider_245" ng-class="{true: &#39;viewed_divider&#39;,  false: &#39;not_viewed_divider&#39;} [$root.currentTopicScreensData[$index].status === &#39;viewed&#39;]" class="not_viewed_divider">
+        </div><!-- end ngIf: $index !== 0 --><!-- end ngRepeat: screen in $root.currentTopicScreensData -->
+    </div>
+</div></div>
+
+                <div id="preview_next_button_container" class="table-cell">
+                    <div id="previous_next_buttons">
+                        <div id="previous_button_container" class="nav_button">
+                            <div id="prev" ng-click="$root.prevButton()" class="screen_navigation_button">Prev</div>
+                        </div>
+                        <div id="next_button_container" class="nav_button">
+                            <div id="next" ng-click="$root.nextButton()" class="screen_navigation_button">Next</div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end ngIf: $root.currentModuleName != '' && $root.currentTopicName != '' -->
+
+            <!-- ngIf: $root.currentPage === 'study_room' --><div ng-hide="$root.isTestScreenActive || $root.noScreensForTopic" ng-if="$root.currentPage === &#39;study_room&#39;" id="screen_helpers" class="ng-scope"><div class="ng-isolate-scope">
+    <ul class="nav nav-tabs" role="tablist">
+        <li ng-show="$root.helperTextContent" role="presentation" ng-class="{true : &#39;active&#39;, false: &#39;&#39;}[$root.helperTextContent]" class="active" ng-click="changeHelperScreenTab(&#39;helper_text&#39;, true)"><a aria-controls="helper_text" role="tab" data-toggle="tab">Helper Text</a></li>
+        <li role="presentation" ng-class="{true : &#39;active&#39;, false: &#39;&#39;}[!$root.helperTextContent]" ng-click="changeHelperScreenTab(&#39;forum&#39;, true)"><a aria-controls="forum" role="tab" data-toggle="tab">Forum</a>
+        </li>
+    </ul>
+
+    <div class="tab-content">
+        <div ng-show="$root.helperTextContent" role="tabpanel" class="tab-pane active" id="helper_text">
+            <div compile="$root.helperTextContent" class="ng-isolate-scope">
+<p class="ng-scope"><b>Download the code used in the lesson.</b></p> <p class="ng-scope"><a href="https://trainings.internshala.com/uploads/webdev/content_media/Navigation.zip">navigation.zip</a></p><hr class="ng-scope">
+																											 
+																											 	</div>
+        </div>
+        <div role="tabpanel" ng-class="{true : &#39;tab-pane active&#39;, false: &#39;tab-pane&#39;}[!$root.helperTextContent]" id="forum" class="tab-pane" style="">
+            
+        </div>
+    </div>
+</div></div><!-- end ngIf: $root.currentPage === 'study_room' -->
+            <div style="display: none">
+                <form style="display: none" action="https://trainings.internshala.com/try_yourself/web-development" method="post" target="_blank" class="ng-pristine ng-valid">
+                    <input type="text" id="try_yourself_code" name="code" value="">
+                    <input type="text" id="try_yourself_compiler" name="compiler" value="">
+                    <input type="submit" id="submit_try_yourself_dock">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="hidden-xs">
+    <div><div ng-show="showCourseLiveChat" id="course_live_chat" class=""><p class="ng-binding">Next live chat: Mon (7:30 - 8:30 PM)</p></div></div>
+</div>
+            <br><br><br><br><div id="footer">
+    <div class="container-fluid">
+        <div class="row" id="footer-bottom">
+            <div class="col-xs-8 footer_query">
+                For any queries, please write to us at <a href="mailto:trainings@internshala.com">trainings@internshala.com</a>
+            </div>
+            <div class="col-xs-4 footer_copyright" id="copyright">
+                © Copyright 2016 <a href="http://internshala.com/" target="_blank">Internshala</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+
+    
+    
+<div id="ngProgress-container" class="ng-scope"><div id="ngProgress" style="height: 2px; background-color: rgb(18, 149, 201); color: rgb(18, 149, 201); width: 0%;"></div></div><div id="ngProgress-container" class="ng-scope"><div id="ngProgress" style="height: 2px; background-color: rgb(18, 149, 201); color: rgb(18, 149, 201); width: 0%; opacity: 1;"></div></div></body></html>
